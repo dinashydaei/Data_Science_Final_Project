@@ -40,8 +40,6 @@ Sheydaei_Data_Science_Final_Project/
 🚀 Installation & Setup
 To run this project locally, follow these steps:
 
-Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 Create a virtual environment (Recommended):
 
