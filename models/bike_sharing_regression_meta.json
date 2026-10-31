@@ -1,0 +1,47 @@
+{
+  "dataset_name": "Bike Sharing",
+  "task": "regression",
+  "task_label": "Regression",
+  "target": "cnt",
+  "features": [
+    "season",
+    "yr",
+    "mnth",
+    "hr",
+    "holiday",
+    "weekday",
+    "workingday",
+    "weathersit",
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed"
+  ],
+  "metrics": {
+    "rf": {
+      "RMSE": 42.36,
+      "MAE": 25.19,
+      "R2": 0.9433
+    },
+    "gb": {
+      "RMSE": 49.77,
+      "MAE": 32.81,
+      "R2": 0.9218
+    },
+    "ridge": {
+      "RMSE": 139.21,
+      "MAE": 104.8,
+      "R2": 0.388
+    }
+  },
+  "best_model": "rf",
+  "quality_thresholds": {
+    "low": 40.0,
+    "mid": 189.0,
+    "high": 376.0
+  },
+  "y_min": 1.0,
+  "y_max": 977.0,
+  "y_mean": 189.46308763450142,
+  "n_rows": 17379
+}
